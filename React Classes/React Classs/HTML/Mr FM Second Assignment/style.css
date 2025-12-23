@@ -1,0 +1,469 @@
+/* Reset & variables
+* { box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+:root{
+  --bg: #ffffff;
+  --accent: #ff2e2e;
+  --primary: #38516d;
+  --muted: #536982;
+  --soft: #f2f9ff;
+  --radius: 12px;
+  --max-width: 1200px;
+  --gap: 20px;
+  --fluid-padding: 24px;
+} */
+
+/* Layout container */
+/* body{
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: var(--soft);
+  color: var(--primary);
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  line-height: 1.4;
+}
+
+.white-box{
+  max-width: var(--max-width);
+  margin: 0 auto;
+  background: var(--bg);
+  border-radius: 14px;
+  padding: 80px var(--fluid-padding) 40px;
+  box-shadow: 0 6px 28px rgba(16,24,40,0.06);
+  position: relative;
+}
+
+Header / Navigation
+.header{
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 12px;
+  width: calc(100% - 48px);
+  max-width: var(--max-width);
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background: transparent;
+  z-index: 100;
+  padding: 8px 12px;
+}
+
+.header nav{
+  display:flex;
+  gap: 24px;
+  align-items:center;
+}
+
+.header nav a{
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 8px 10px;
+  border-radius: 8px;
+}
+
+.header nav a:hover,
+.header nav a:focus{
+  background: rgba(56,81,109,0.06);
+  outline: none;
+}
+
+.header nav a{
+font-family: Commissioner;
+font-weight: 400;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 32px;
+letter-spacing: 0px;
+text-align: center;
+color: #38516D;
+}
+
+.side-btn{
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.side-btn:focus{ outline: 3px solid rgba(255,46,46,0.18); } */
+
+/* Main image / hero */
+/* .main-image{
+  margin-top: 30px;
+  display:flex;
+  justify-content:flex-end;
+}
+.main-image svg{ width: 140px; height: auto; display:block; } */
+
+/* White background section (hero content) */
+/* .white-background{
+  display:grid;
+  grid-template-columns: 1fr 320px;
+  gap: var(--gap);
+  align-items:center;
+  margin-top: 24px;
+} */
+
+/* Left hero / call to action */
+/* .play_online{
+  padding: 12px;
+}
+.play_online h1{
+  font-size: 34px;
+  color: var(--primary);
+  margin-bottom: 8px;
+}
+.play_online h2{
+  font-size: 18px;
+  color: var(--muted);
+  margin-bottom: 18px;
+}
+.play_online .play-now-button{
+  background: var(--accent);
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+}
+.play-now-button:focus{ outline: 3px solid rgba(14,148,240,0.14); } */
+
+/* Active users card */
+/* .active-users{
+  background: linear-gradient(180deg,#fff,#fbfdff);
+  border: 1px solid rgba(56,81,109,0.06);
+  border-radius: 12px;
+  padding: 18px;
+  text-align:center;
+}
+.active-users h2{ font-size: 16px; color: var(--primary); margin-bottom: 8px; }
+.user-count{ font-size: 28px; font-weight:800; color: var(--accent); } */
+
+/* How to play */
+/* .how-to-play{
+  margin-top: 32px;
+  padding: 18px;
+}
+.how-to-play h2{ font-size: 20px; margin-bottom: 12px; color: var(--primary); } */
+
+/* Image grid for steps */
+/* .how-to-play-image{
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 12px;
+  align-items:center;
+}
+.how-to-play-image figure{
+  background: #fff;
+  border-radius: 12px;
+  padding: 10px;
+  text-align:center;
+  box-shadow: 0 4px 16px rgba(16,24,40,0.04);
+}
+.how-to-play-image img{ max-width:100%; height:auto; display:block; margin:0 auto 8px; }
+.how-to-play-image figcaption{ font-size:14px; color:var(--muted); } */
+
+/* Second white background (features, explore, subjects) */
+/* .second-white-background{
+  margin-top: 26px;
+  padding: 18px;
+  background: linear-gradient(180deg,#ffffff,#fbfdff);
+  border-radius: 12px;
+}
+
+.preparation{
+  margin: 12px 0;
+}
+.preparation .prepare-text,
+.BSC .let-start-text,
+.explore h1{
+  color: var(--primary);
+  font-size: 22px;
+  margin-bottom: 12px;
+} */
+
+/* Start / explore area images */
+/* .BSC{
+  display:flex;
+  gap: 12px;
+  align-items:center;
+  flex-wrap:wrap;
+}
+.BSC img{ width: 64px; height:64px; object-fit:contain; border-radius:8px; } */
+
+/* Explore button */
+/* .explore .explore-all-button{
+  background: transparent;
+  border: 2px solid var(--primary);
+  color: var(--primary);
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-weight:700;
+  cursor: pointer;
+} */
+
+/* Subject images grid */
+/* .subject-image{
+  margin-top: 14px;
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+.subject-image img{ width:100%; height:120px; object-fit:cover; border-radius:10px; } */
+
+/* Aside: weekly winners */
+/* .green-box{
+  margin-top: 18px;
+  background: linear-gradient(180deg,#e9ffef,#f7fff8);
+  border-radius: 10px;
+  padding: 12px;
+}
+.view-winner h2{ font-size:16px; color:var(--primary); margin-bottom:6px; }
+.weekly-winner-images{
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+}
+.weekly-winner-images img{ width:48px; height:48px; border-radius:8px; object-fit:cover; } */
+
+/* Two boxes / forms */
+/* .two-boxes{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px;
+  margin-top: 14px;
+}
+.contact-us,
+.form-image,
+.empty-green-box{
+  min-height: 120px;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid rgba(16,24,40,0.04);
+} */
+
+/* Footer-like menu services */
+/* .menu-services{
+  display:flex;
+  gap:12px;
+  margin-top: 18px;
+}
+.menu-services > div{
+  flex:1;
+  min-height: 80px;
+  background:#fff;
+  border-radius:8px;
+  border:1px solid rgba(16,24,40,0.04);
+} */
+
+/* Utilities */
+/* img[aria-hidden="true"]{ display:block; }
+.hidden{ display:none !important; }
+.center{ text-align:center; } */
+
+/* Responsive */
+/* @media (max-width: 900px){
+  .white-background{ grid-template-columns: 1fr; }
+  .how-to-play-image{ grid-template-columns: 1fr 1fr; }
+  .subject-image{ grid-template-columns: repeat(2,1fr); }
+  .main-image{ justify-content:center; margin-top: 12px; }
+  .header{ left: 0; transform:none; width:100%; padding: 8px 16px; }
+  .BSC img{ width:48px; height:48px; }
+}
+
+@media (max-width: 520px){
+  .subject-image{ grid-template-columns: 1fr; }
+  .header nav{ display:none; }
+  .white-box{ padding: 64px 14px 28px; }
+  .two-boxes{ grid-template-columns: 1fr; }
+} */
+
+/* :root {
+  /* design tokens — change these to change the whole look */
+  /* --bg: #ffffff;
+  --surface: #fbfdff;
+  --accent: #ff2e2e;
+  --primary: #38516d;
+  --muted: #536982;
+  --radius: 12px;
+  --gap: 16px;
+  --container: 1200px;
+  --fluid-pad: 24px;
+  --text: 16px;
+}  */
+
+/* ========== Base / Reset ========== */
+/* * { box-sizing: border-box; }
+html,body { height: 100%; }
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: var(--surface);
+  color: var(--primary);
+  font-size: var(--text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.45;
+} */
+
+/* Container wrapper used in your HTML */
+/* .white-box {
+  max-width: var(--container);
+  margin: 0 auto;
+  background: var(--bg);
+  border-radius: calc(var(--radius) + 2px);
+  padding: 80px var(--fluid-pad) 40px;
+  box-shadow: 0 8px 30px rgba(16,24,40,0.06);
+  position: relative;
+} */
+
+/* ========== Layout blocks ========== */
+/* .header {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 12px;
+  width: calc(100% - 48px);
+  max-width: var(--container);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--gap);
+  padding: 8px 12px;
+  z-index: 60;
+  background: transparent; /* change to white or blur if you want solid header */
+/*} 
+
+/* nav links (wrap your header content in <nav>) */
+/* .header nav { display:flex; gap: 18px; align-items:center; }
+.header a {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 600;
+  padding: 8px 10px;
+  border-radius: 8px;
+}
+.header a:hover,
+.header a:focus { background: rgba(56,81,109,0.06); outline: none; } */
+
+/* CTA button in header */
+/* .side-btn {
+  background: var(--accent);
+  color: #fff;
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+.side-btn:focus { outline: 3px solid rgba(255,46,46,0.12); } */
+
+/* Main image area */
+/* .main-image { margin-top: 30px; display:flex; justify-content:flex-end; }
+.main-image svg { width: 140px; height: auto; display:block; } */
+
+/* Hero / White background section */
+/* .white-background {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: var(--gap);
+  align-items: center;
+  margin-top: 24px;
+} */
+
+/* Left hero (play_online) */
+/* .play_online { padding: 12px; }
+.play_online h1 { font-size: 34px; margin: 6px 0; color: var(--primary); }
+.play_online h2 { font-size: 18px; color: var(--muted); margin-bottom: 16px; }
+.play-now-button {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.play-now-button:focus { outline: 3px solid rgba(14,148,240,0.12); } */
+
+/* Active users card */
+/* .active-users {
+  background: linear-gradient(180deg,#fff,#fbfdff);
+  border-radius: 12px;
+  padding: 18px;
+  text-align:center;
+  border: 1px solid rgba(16,24,40,0.04);
+}
+.user-count { color: var(--accent); font-weight:800; font-size:28px; } */
+
+/* How to play section */
+/* .how-to-play { margin-top: 32px; padding: 18px 0; }
+.how-to-play-image {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+.how-to-play-image figure {
+  background: #fff; border-radius: 12px; padding: 10px; text-align:center;
+  box-shadow: 0 6px 20px rgba(16,24,40,0.04);
+}
+.how-to-play-image img { max-width:100%; height:auto; display:block; margin: 0 auto 8px; } */
+
+/* Second white background & components */
+.second-white-background { margin-top: 26px; padding: 18px; border-radius: 12px; }
+.preparation .prepare-text,
+.BSC .let-start-text,
+.explore h1 { color: var(--primary); font-size: 22px; }
+
+/* Grid helpers */
+.subject-image {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+.subject-image img { width:100%; height:120px; object-fit: cover; border-radius: 10px; }
+
+/* Green box (aside) */
+.green-box { background: linear-gradient(180deg,#e9ffef,#f7fff8); padding: 12px; border-radius: 10px; }
+
+/* Two-boxes layout */
+.green-box { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; margin-top: 14px; }
+.contact-us, .form-image, .empty-green-box {
+  min-height: 120px; background: #fff; border-radius: 10px; border: 1px solid rgba(16,24,40,0.04);
+}
+
+/* Footer menu services */
+.menu-services { display:flex; gap:12px; margin-top: 18px; }
+.menu-services > div { flex:1; min-height: 80px; background:#fff; border-radius:8px; }
+
+/* ========== Utilities & Accessibility ========== */
+img[aria-hidden="true"] { display:block; }
+.hidden { display:none !important; }
+.center { text-align:center; }
+
+:focus { outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
+}
+
+/* ========== Responsive tweaks ========== */
+@media (max-width: 900px) {
+  .white-background { grid-template-columns: 1fr; }
+  .subject-image { grid-template-columns: repeat(2,1fr); }
+  .main-image { justify-content:center; margin-top:12px; }
+  .header { left:0; transform:none; width:100%; padding: 8px 16px; }
+}
+@media (max-width: 520px) {
+  .subject-image { grid-template-columns: 1fr; }
+  .header nav { display:none; }
+  .white-box { padding: 64px 14px 28px; }
+  .two-boxes { grid-template-columns: 1fr; }
+}

@@ -1,0 +1,55 @@
+.container {
+    /* // Center the login form on the page */
+    display: flex;
+    /* // Use column direction for stacking elements vertically different from flex because it is for 1D layouts and 1D layouts means either in a row or in a column */
+    flex-direction: column;
+    /* // Center items horizontally and vertically different from flex because it is for 1D layouts and 1D layouts means either in a row or in a column */
+    align-items: center;
+    /* // if you want to center items in both directions, you can use justify-content that means in row direction or column direction */
+    justify-content: center;
+    /* //how can i reduce the size of the background-color  */
+    /* background-size: cover; */
+    background-color: rgb(31, 8, 54);
+    width: 400px;       /* choose the size you want */
+    padding: 30px;      /* optional for spacing */
+    border-radius: 10px; /* optional */
+    
+   
+}
+.login {
+    font-size: 24px;
+    margin-bottom: 20px;
+    background-color: rgb(152, 82, 223); /* your background color */
+    
+    padding: 20px;              /* space inside box */
+    border-radius: 10px;        /* rounded corners */
+    width: fit-content;         /* box shrinks to content */
+    display: flex;              /* put label + input in one line */
+    gap: 10px;                  /* spacing between label and input */
+
+    /* optional styling */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); /* soft shadow */
+
+}
+.password {
+    margin-bottom: 20px;
+    font-size: 24px;
+     background-color: rgb(152, 82, 223); /* your background color */
+    
+    padding: 20px;              /* space inside box */
+    border-radius: 10px;        /* rounded corners */
+    width: fit-content;         /* box shrinks to content */
+    display: flex;              /* put label + input in one line */
+    gap: 10px;                  /* spacing between label and input */
+   
+}
+
+.submit{
+    font-size: 24px;
+    padding: 10px 20px;
+    background-color: rgb(31, 8, 54);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

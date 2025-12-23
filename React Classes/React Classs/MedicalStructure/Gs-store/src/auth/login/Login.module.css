@@ -1,0 +1,18 @@
+.input{
+    width : 400px;
+    outline: none;
+}
+
+.inputDiv{
+    display: flex;
+    flex-direction: column;
+}
+ .registerWrapper{
+    width: 400px;
+   margin : auto;
+
+   background-origin: blue;
+   padding: 4px 6px 8px 10px;
+   /* display: flex   ;
+   justify-content: center; */
+} 

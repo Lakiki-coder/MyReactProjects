@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8" />
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0" />
+        <title>Semicolon | Home</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="icon" href="./grpyw2ac3zst8os5omh6.svg" />
+    </head>
+    <body>
+        <div class="header">
+            img src="image/semicolon.svg" alt="" class="gif">
+            <ul>
+                <li><a href="">Individuals</a></li>
+                <li><a href="">Business</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Impact</a></li>
+            </ul>
+            <button class="btn-background">Join Talent Pool</button>
+            <div clas="toggle">
+                
+            </div>
+        </div>
+    </body>
+</html>
+
+
+
+
+
+
+
+// 1. getElementById() - Selects ONE element by its ID
+const taskInput = document.getElementById('taskInput');
+const addBtnTask = document.getElementById('addTaskBtn');
+const categorySelect = document.getElementById('categorySelect');
+const taskList = document.getElementById('taskList')
+
+
+
+
+// 2. getElementsByClassName() - Selects ALL elements with a class (returns HTMLCollection)
+
+
+
+
+// 3. getElementsByTagName() - Selects ALL elements by tag name (returns HTMLCollection)
+
+
+
+// 4. querySelector() - Selects the FIRST element that matches (modern way)
+
+
+
+
+// 5. querySelectorAll() - Selects ALL elements that match (returns NodeList)
+
+
+
+
+
+// ========================================
+// ADD TASK FUNCTION
+// ========================================
+
+function addTasks(){
+    const taskText = taskInput.value.trim();
+    if(taskText === ""){
+        alert("pls enter a task");
+        return;
+    }
+
+
+
+    const emptyStates = document.querySelector('.empty-state')
+    if(emptyStates){
+        emptyStates.remove();
+    }
+   
+
+    <!-- const li = document.createElement('li');
+    li.className = 'task-item';
+    li.setAttribute('data-category', categorySelect.value);
+
+    li.innerHTML = `
+        <div class="task-info">
+            <div class="task-title">${taskText}</div>
+            <span class="task-category category-${categorySelect.value}">${categorySelect.value.toUpperCase()}</span>
+        </div>
+        <div class="task-actions">
+            <button class="btn-complete" onclick="toggleComplete(this)">Complete</button>
+            <button class="btn-delete" onclick="deleteTask(this)">Delete</button>
+        </div>
+    `;
+    taskList.appendChild(li);
+    updateStats();
+    taskInput.value = "";
+
+} -->
+
+
+
+
+
+
+
+
+
+// ========================================
+// TOGGLE COMPLETE FUNCTION
+// Uses PARENT traversal
+// ========================================
+function toggleTask(button){
+    const chil = document.querySelector('.task-item');
+
+}
+
+
+
+
+
+
+// ========================================
+// DELETE TASK FUNCTION
+// Uses PARENT traversal
+// ========================================
+function deleteTask(button){
+    const taskItem = button.closest('.task-item');
+    taskItem.remove();
+    updateStats();
+    const allTasks = document.getElementsByClassName('task-item');
+    if (allTasks.length === 0){
+        taskList.innerHTML = ` <div class = "empty-state">No tasks yet. Add one to get started!</div>
+         `;
+    } 
+
+}
+
+
+
+
+
+
+2
+
+// ========================================
+// FILTER TASKS FUNCTION
+// Uses querySelectorAll() to get all tasks
+// ========================================
+
+
+
+
+
+
+
+
+// ========================================
+// UPDATE STATISTICS FUNCTION
+// Uses getElemenBytId() and getElementsByClassName()
+// ========================================
+
+function updateStats(){
+    const allTask = document.getElementsByClassName('task-item');
+
+    document.getElementById('totalTasks').textContent = allTask.length;
+
+}
+
+
+
+
+
+// ========================================
+// EVENT LISTENERS
+// ======================================== 
+addBtnTask.addEventListener('click', addTasks);

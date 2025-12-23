@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Play Quiz | Home</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./grpyw2ac3zst8os5omh6.svg" />
+  </head>
+  <body>
+  <div class = "white-box">
+    <div class = "header">
+
+
+    </div>
+    <div class = "play_online">
+
+
+    </div>
+    <div class = "quiz-image">
+
+    </div>
+    <div class = "how-to-play-image">
+
+
+    </div>
+  </div>
+    <div class = "steps">
+
+
+    </div>
+    <div class = "preparation">
+
+
+    </div>
+    <div class = "BSC">
+
+
+    </div>
+    <div class = "explore">
+
+    </div>
+    <div class = "subject-image">
+
+
+    </div>
+    <div class = "green-box">
+        <div class = "view-winner">
+
+        </div>
+        <div class = "weekly-winner">
+
+        </div>
+        <div class = "check-latest">
+
+        </div>
+        <div class =  "laptop-images">
+
+        </div>
+
+
+    </div>
+
+    <div class = "two-boxes">
+        <div class = "contat-us">
+
+
+        </div>
+        <div class = "form-image">
+
+        </div>
+        <div class = "empty-green-box">
+
+        </div>
+    </div>
+    <div class = "menu-services">
+        <div class = "menu">
+
+
+        </div>
+        <div class = "service">
+
+        </div>
+        <div class = "f-image">
+
+        </div>
+    </div>
+
+
+  </body>
