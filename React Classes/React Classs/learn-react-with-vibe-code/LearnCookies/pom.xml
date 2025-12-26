@@ -10,7 +10,7 @@
     <packaging>jar</packaging>
 
     <name>LearnCookies</name>
-    <description>Learn Cookies Project</description>
+    <description>Learn Cookies Project - Cookie and JWT Authentication Learning</description>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
@@ -43,6 +43,14 @@
             <artifactId>jjwt-jackson</artifactId>
             <version>0.12.3</version>
             <scope>runtime</scope>
+        </dependency>
+
+        <!-- Lombok for boilerplate reduction -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.42</version>
+            <scope>provided</scope>
         </dependency>
 
         <!-- Testing -->
