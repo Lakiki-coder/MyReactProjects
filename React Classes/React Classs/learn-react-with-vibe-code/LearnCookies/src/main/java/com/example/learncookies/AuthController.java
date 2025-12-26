@@ -13,6 +13,7 @@ package com.example.learncookies;
 // we import io.jsonwebtoken.SignatureAlgorithm because we go use am to specify the signature algorithm
 // we import io.jsonwebtoken.security.Keys because we go use am to generate signing keys
 // we import java.util.Date because we go use am to handle date and time
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -100,11 +101,11 @@ public class AuthController {
 
     public String validateToken(String token) {
 
-        return Jwts.parserBuilder()
-                .setSigningKey(SECRET.getBytes())
+        return Jwts.parser()
+                .verifyWith(Keys.hmacShaKeyFor(SECRET.getBytes()))
                 .build()
-                .parseClaimsJws(token)
-                .getBody()
+                .parseSignedClaims(token)
+                .getPayload()
                 .getSubject();
     }
 }

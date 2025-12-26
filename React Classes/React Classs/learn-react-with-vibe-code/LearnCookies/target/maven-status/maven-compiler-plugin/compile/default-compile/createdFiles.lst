@@ -1,5 +1,5 @@
-LearnCookies\AuthController.class
-LearnCookies\LoginRequest.class
-LearnCookies\UserController.class
-LearnCookies\JwtUtil.class
-LearnCookies\Main.class
+com\example\learncookies\LoginRequest.class
+com\example\learncookies\AuthController.class
+com\example\learncookies\Main.class
+com\example\learncookies\JwtUtil.class
+com\example\learncookies\UserController.class
